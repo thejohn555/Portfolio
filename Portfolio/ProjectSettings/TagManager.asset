@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Jugador
+  - Llave1
+  - Llave2
+  - Llave3
+  - Puerta1
+  - Puerta2
+  - Puerta3
+  - Coleccionable
+  - Spawn
+  - Kill
   layers:
   - Default
   - TransparentFX
