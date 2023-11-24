@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Personaje : Vida
 {
-    private GameObject _Camara;
+    private GameObject _camara;
+    [SerializeField] private GameObject _granadaPrefab;
+    [SerializeField] private GameObject _salidaGranada;
     private Vector3 _spawn;
     private float _movimientoF;
     private float _movimientoR;
@@ -15,8 +18,13 @@ public class Personaje : Vida
     private int _velocidadCaminar;
     private int _fuerzaSalto;
     private int _coleccionables;
+    private int _municionArma;
+    private int _municionGranada;
+    [SerializeField] private TMP_Text _tMunicionArma;
+    [SerializeField] private TMP_Text _tMunicionGranada;
     private Rigidbody _rb;
     private bool _disparando;
+    private bool _disparandoG;
     private bool _saltando;
     private bool _llave1;
     private bool _llave2;
@@ -27,12 +35,15 @@ public class Personaje : Vida
     // Start is called before the first frame update
     void Start()
     {
+        _municionGranada = 3;
+        _municionArma = 20;
         _spawn = transform.position;
         _saltando = false;
         _coleccionables = 0;
-        _Camara = GameObject.Find("Main Camera");
+        _camara = GameObject.Find("Main Camera");
         vida = 10;
         _disparando = false;
+        _disparandoG = false;
         Cursor.lockState = CursorLockMode.Locked;
         _velocidadCaminar = 800;
         _fuerzaSalto = 200000;
@@ -46,9 +57,11 @@ public class Personaje : Vida
         Mira();
         Movimiento();
         Ataque();
+        Granada();
         Salto();
         Agacharse();
         Correr();
+        UI();
 
     }
     void Mira()
@@ -110,9 +123,17 @@ public class Personaje : Vida
     }
     void Ataque()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && _disparando == false)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && _disparando == false && _municionArma > 0) 
         {
             StartCoroutine("Disparo");
+        }
+    }
+    void Granada()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && _disparandoG == false && _municionGranada > 0) 
+        {
+            _municionGranada -= 1;
+            StartCoroutine("DisparoG");
         }
     }
     void Agacharse()
@@ -137,16 +158,31 @@ public class Personaje : Vida
             _velocidadCaminar = 800;
         }
     }
+    void UI()
+    {
+        _tMunicionArma.text = _municionArma.ToString();
+        _tMunicionGranada.text = _municionGranada.ToString();
+    }
     IEnumerator Disparo()
     {
         _disparando = true;
-        if (Physics.Raycast(_Camara.transform.position, transform.forward, out RaycastHit hit, 10))
+        if (Physics.Raycast(_camara.transform.position, transform.forward, out RaycastHit hit, 10))
         {
             if(hit.transform.GetComponent<Vida>()!=null)
             {
                 hit.transform.GetComponent<Vida>().Daño(2);
+                _municionArma -= 1;
             }
         }
+        yield return new WaitForSeconds(1);
+        _disparando = false;
+        yield return null;
+    }
+    IEnumerator DisparoG()
+    {
+        _disparando = true;
+        Debug.Log("Hola");
+        GameObject.Instantiate(_granadaPrefab, _salidaGranada.transform.position, _salidaGranada.transform.rotation);
         yield return new WaitForSeconds(1);
         _disparando = false;
         yield return null;
