@@ -19,7 +19,7 @@ public class Patrulla : Vida
     private NavMeshAgent navAgent;
 
     private GameObject pRuta;
-    private GameObject[] psRutas;
+    [SerializeField] private GameObject[] psRutas;
     private int i;
     public float velocidad;
     public float rangoAtaque;

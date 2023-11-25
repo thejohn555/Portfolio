@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -48,6 +49,16 @@ public class GameManager : MonoBehaviour
         _tMinutos.text=_minutos.ToString();
         _tSegundos.text=_segundos.ToString();
     }
+    public void Loss()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("Derrota");
+    }
+    public void Win()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("Victoria");
+    }
     IEnumerator ContraRelog()
     {
         while (_tiempoSigue == false)
@@ -60,6 +71,7 @@ public class GameManager : MonoBehaviour
                 if (_minutos < 0)
                 {
                     _tiempoSigue = true;
+                    Loss();
                 }
             }
             yield return new WaitForSeconds(1);

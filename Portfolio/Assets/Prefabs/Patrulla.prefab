@@ -125,9 +125,10 @@ MonoBehaviour:
   psRutas:
   - {fileID: 0}
   - {fileID: 0}
-  velocidad: 0
-  rangoAtaque: 0
-  rangoVision: 0
+  velocidad: 3
+  rangoAtaque: 2
+  rangoVision: 15
+  tiempoEspera: 0
 --- !u!195 &8616772426441997333
 NavMeshAgent:
   m_ObjectHideFlags: 0

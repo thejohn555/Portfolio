@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class Vida : MonoBehaviour
 {
+    public GameObject Salud;
+    public GameObject MuniArma;
+    public GameObject MunniGranada;
     public int vida;
+    private int _suerte;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Salud = GameObject.Find("Vida");
     }
 
     // Update is called once per frame
@@ -23,7 +27,29 @@ public class Vida : MonoBehaviour
 
         if (vida <= 0)
         {
-            Destroy(this.gameObject);
+            if (this.gameObject.CompareTag("Enemigo"))
+            {
+                _suerte = Random.Range(0, 10);
+                switch (_suerte)
+                {
+                    case 0:
+                        GameObject.Instantiate(Salud, transform.position, transform.rotation);
+                        
+                        break;
+                        case 1:
+                        GameObject.Instantiate(MuniArma, transform.position, transform.rotation);
+                        break;
+                        case 2:
+                        GameObject.Instantiate(MunniGranada, transform.position, transform.rotation);
+                        break;
+
+                }
+            }
+            if (this.gameObject.CompareTag("Jugador"))
+            {
+                GameManager.giveMeReference.Loss();
+            }
+                Destroy(this.gameObject);
         }
 
     }

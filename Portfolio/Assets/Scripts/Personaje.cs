@@ -9,6 +9,7 @@ public class Personaje : Vida
     private GameObject _camara;
     [SerializeField] private GameObject _granadaPrefab;
     [SerializeField] private GameObject _salidaGranada;
+    private GameObject _Palanca;
     private Vector3 _spawn;
     private float _movimientoF;
     private float _movimientoR;
@@ -35,6 +36,7 @@ public class Personaje : Vida
     // Start is called before the first frame update
     void Start()
     {
+        _Palanca = GameObject.Find("Palanca");
         _municionGranada = 3;
         _municionArma = 20;
         _spawn = transform.position;
@@ -46,7 +48,7 @@ public class Personaje : Vida
         _disparandoG = false;
         Cursor.lockState = CursorLockMode.Locked;
         _velocidadCaminar = 800;
-        _fuerzaSalto = 200000;
+        _fuerzaSalto = 250000;
         _rb = GetComponent<Rigidbody>();
         _hSpeed = 600;
     }
@@ -62,6 +64,7 @@ public class Personaje : Vida
         Agacharse();
         Correr();
         UI();
+        Interactuar();
 
     }
     void Mira()
@@ -130,7 +133,7 @@ public class Personaje : Vida
     }
     void Granada()
     {
-        if (Input.GetKeyDown(KeyCode.E) && _disparandoG == false && _municionGranada > 0) 
+        if (Input.GetKeyDown(KeyCode.Mouse2) && _disparandoG == false && _municionGranada > 0) 
         {
             _municionGranada -= 1;
             StartCoroutine("DisparoG");
@@ -163,6 +166,19 @@ public class Personaje : Vida
         _tMunicionArma.text = _municionArma.ToString();
         _tMunicionGranada.text = _municionGranada.ToString();
     }
+    void Interactuar()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if(Physics.Raycast(_camara.transform.position,_camara.transform.forward,out  RaycastHit hit, 2))
+            {
+                if (hit.transform.CompareTag("Palanca"))
+                {
+                    _Palanca.GetComponent<Palanca>().On = !_Palanca.GetComponent<Palanca>().On;
+                }
+            }
+        }
+    }
     IEnumerator Disparo()
     {
         _disparando = true;
@@ -181,7 +197,6 @@ public class Personaje : Vida
     IEnumerator DisparoG()
     {
         _disparando = true;
-        Debug.Log("Hola");
         GameObject.Instantiate(_granadaPrefab, _salidaGranada.transform.position, _salidaGranada.transform.rotation);
         yield return new WaitForSeconds(1);
         _disparando = false;
@@ -220,6 +235,22 @@ public class Personaje : Vida
         if (other.gameObject.CompareTag("Kill"))
         {
             transform.position = _spawn;
+        }
+        if (other.gameObject.CompareTag("Vida"))
+        {
+            vida += 5;
+        }
+        if (other.gameObject.CompareTag("MuniArma"))
+        {
+            _municionArma += 10;
+        }
+        if (other.gameObject.CompareTag("MuniGranada"))
+        {
+            _municionGranada+= 1;
+        }
+        if (other.gameObject.CompareTag("Victoria"))
+        {
+            GameManager.giveMeReference.Win();
         }
     }
     private void OnTriggerStay(Collider other)
