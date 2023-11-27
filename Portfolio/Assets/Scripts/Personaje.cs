@@ -48,9 +48,9 @@ public class Personaje : Vida
         _disparandoG = false;
         Cursor.lockState = CursorLockMode.Locked;
         _velocidadCaminar = 800;
-        _fuerzaSalto = 250000;
+        _fuerzaSalto = 200000;
         _rb = GetComponent<Rigidbody>();
-        _hSpeed = 600;
+        _hSpeed = 1600;
     }
 
     // Update is called once per frame
@@ -113,9 +113,12 @@ public class Personaje : Vida
     {
         if (_saltando == true&&_rb.velocity.y<0)
         {
-            if (Physics.Raycast(transform.position, -Vector3.up, 0.75f))
+            if (Physics.Raycast(transform.position, -Vector3.up, out RaycastHit hit, 0.71f))
             {
-                _saltando = false;
+                if (hit.transform.CompareTag("Suelo"))
+                {
+                    _saltando = false;
+                }
             }
         }
         if (Input.GetKeyDown(KeyCode.Space)&&_saltando==false)
@@ -182,7 +185,7 @@ public class Personaje : Vida
     IEnumerator Disparo()
     {
         _disparando = true;
-        if (Physics.Raycast(_camara.transform.position, transform.forward, out RaycastHit hit, 10))
+        if (Physics.Raycast(_camara.transform.position,_camara.transform.forward , out RaycastHit hit, 10))
         {
             if(hit.transform.GetComponent<Vida>()!=null)
             {

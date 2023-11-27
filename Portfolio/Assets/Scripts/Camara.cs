@@ -16,14 +16,18 @@ public class Camara : MonoBehaviour
     void Start()
     {
         Jugador = GameObject.FindGameObjectWithTag("Jugador");
-        _vSpeed = 400;
-        _hSpeed = 600;
+        _vSpeed = 1400;
+        _hSpeed = 1600;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position= Jugador.transform.position+new Vector3 (0,0.5f,0);
+        if (Jugador != null)
+        {
+            transform.position = Jugador.transform.position + new Vector3(0, 0.5f, 0);
+        }
+        
         //transform.rotation= Jugador.transform.rotation;
         Mira();
     }

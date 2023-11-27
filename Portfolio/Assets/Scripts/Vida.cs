@@ -29,7 +29,7 @@ public class Vida : MonoBehaviour
         {
             if (this.gameObject.CompareTag("Enemigo"))
             {
-                _suerte = Random.Range(0, 10);
+                _suerte = Random.Range(0, 5);
                 switch (_suerte)
                 {
                     case 0:
