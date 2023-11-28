@@ -242,14 +242,17 @@ public class Personaje : Vida
         if (other.gameObject.CompareTag("Vida"))
         {
             vida += 5;
+            Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("MuniArma"))
         {
             _municionArma += 10;
+            Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("MuniGranada"))
         {
             _municionGranada+= 1;
+            Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("Victoria"))
         {
