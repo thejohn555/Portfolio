@@ -132,6 +132,7 @@ public class Personaje : Vida
         if (Input.GetKeyDown(KeyCode.Mouse0) && _disparando == false && _municionArma > 0) 
         {
             StartCoroutine("Disparo");
+            _municionArma -= 1;
         }
     }
     void Granada()
@@ -179,6 +180,18 @@ public class Personaje : Vida
                 {
                     _Palanca.GetComponent<Palanca>().On = !_Palanca.GetComponent<Palanca>().On;
                 }
+                if (hit.transform.name == "Cerradura1" && _llave1 == true)
+                {
+                    Destroy(GameObject.Find("Pared 1"));
+                }
+                if (hit.transform.name == "Cerradura2" && _llave2 == true)
+                {
+                    Destroy(GameObject.Find("Pared 2"));
+                }
+                if (hit.transform.name == "Cerradura3" && _llave3 == true)
+                {
+                    Destroy(GameObject.Find("Pared 3"));
+                }
             }
         }
     }
@@ -190,7 +203,7 @@ public class Personaje : Vida
             if(hit.transform.GetComponent<Vida>()!=null)
             {
                 hit.transform.GetComponent<Vida>().Daño(2);
-                _municionArma -= 1;
+                
             }
         }
         yield return new WaitForSeconds(1);
@@ -261,13 +274,13 @@ public class Personaje : Vida
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Puerta1"))
-        {
             if (Input.GetKeyDown(KeyCode.F) && _llave1 == true)
             {
-                Destroy(GameObject.Find("Pared 1"));
-            }
+        if (other.gameObject.CompareTag("Puerta1"))
+        {
+                
         }
+            }
         if (other.gameObject.CompareTag("Puerta2"))
         {
             if (Input.GetKeyDown(KeyCode.F) && _llave2 == true)

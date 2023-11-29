@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Torreta : Vida
@@ -8,6 +9,7 @@ public class Torreta : Vida
     float tiempoAcumulado;
     float cadencia;
     Vector3 direccion;
+    Vector3 distancia;
     Quaternion rotacion;
     int giro;
     int rangoVision;
@@ -46,32 +48,30 @@ public class Torreta : Vida
 
         if (Vector3.Distance(transform.position, jugador.transform.position) < rangoVision)
         {
-
-            rotacion = Quaternion.LookRotation(direccion.normalized, Vector3.up);
-
-            transform.GetChild(0).rotation = Quaternion.Lerp(transform.GetChild(0).rotation, rotacion, giro * Time.deltaTime);
-            
-            direccion.y = 0;
-
-            rotacion = Quaternion.LookRotation(direccion.normalized, Vector3.up);
-
-            transform.GetChild(0).rotation = Quaternion.Lerp(transform.GetChild(0).rotation, rotacion, giro * Time.deltaTime);
+            distancia = jugador.transform.position - transform.position;
+            if (Vector3.Angle(transform.forward, distancia) < 45)
+            {
+                rotacion = Quaternion.LookRotation(direccion.normalized, Vector3.up);
+                transform.GetChild(0).rotation = Quaternion.Lerp(transform.GetChild(0).rotation, rotacion, giro * Time.deltaTime);
+                direccion.y = 0;
+                rotacion = Quaternion.LookRotation(direccion.normalized, Vector3.up);
+                transform.GetChild(0).rotation = Quaternion.Lerp(transform.GetChild(0).rotation, rotacion, giro * Time.deltaTime);
+            }
         }
     }
     private void Ataque()
     {
         if (Vector3.Distance(transform.position, jugador.transform.position) < rangoAtaque && atacando == false)
         {
-
-            bala1 = GameObject.Instantiate(bala, salidabala.transform.position, salidabala.transform.rotation);
-
-            bala1.gameObject.GetComponent<Bala>().velocidad = 20;
-
-            bala1.gameObject.GetComponent<Bala>().daño = 1;
-
-            atacando = true;
-
-            cadencia = 1;
+            distancia = jugador.transform.position - transform.position;
+            if (Vector3.Angle(transform.forward, distancia) < 45)
+            {
+                bala1 = GameObject.Instantiate(bala, salidabala.transform.position, salidabala.transform.rotation);
+                bala1.gameObject.GetComponent<Bala>().velocidad = 20;
+                bala1.gameObject.GetComponent<Bala>().daño = 1;
+                atacando = true;
+                cadencia = 1;
+            }
         }
         if (atacando == true)
         {
