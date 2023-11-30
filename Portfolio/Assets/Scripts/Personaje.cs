@@ -30,6 +30,8 @@ public class Personaje : Vida
     private bool _llave1;
     private bool _llave2;
     private bool _llave3;
+
+    private bool _checksalto = false; 
     
     
 
@@ -44,11 +46,12 @@ public class Personaje : Vida
         _coleccionables = 0;
         _camara = GameObject.Find("Main Camera");
         vida = 10;
+        vidamax = vida;
         _disparando = false;
         _disparandoG = false;
         Cursor.lockState = CursorLockMode.Locked;
-        _velocidadCaminar = 800;
-        _fuerzaSalto = 200000;
+        _velocidadCaminar = 4;
+        _fuerzaSalto = 10;
         _rb = GetComponent<Rigidbody>();
         _hSpeed = 1600;
     }
@@ -65,6 +68,8 @@ public class Personaje : Vida
         Correr();
         UI();
         Interactuar();
+
+        //  base.Update();
 
     }
     void Mira()
@@ -107,26 +112,40 @@ public class Personaje : Vida
         {
             _movimientoR = 0;
         }
-        _rb.AddRelativeForce(new Vector3(_movimientoR,0,_movimientoF).normalized * _velocidadCaminar * Time.deltaTime);
+        _rb.AddRelativeForce(new Vector3(_movimientoR,0,_movimientoF).normalized * _velocidadCaminar);
+
+        if(_checksalto == true && _rb.velocity.y < 0)
+        {
+            _rb.AddRelativeForce(-Vector3.up * _fuerzaSalto / 10);
+        }
     }
     void Salto()
     {
-        if (_saltando == true&&_rb.velocity.y<0)
+        if (_checksalto == true && _rb.velocity.y < 0)
         {
             if (Physics.Raycast(transform.position, -Vector3.up, out RaycastHit hit, 0.71f))
             {
                 if (hit.transform.CompareTag("Suelo"))
                 {
                     _saltando = false;
+                    _checksalto = false;
                 }
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space)&&_saltando==false)
+        if (Input.GetKey(KeyCode.Space) && _saltando==false)
         {
             _saltando = true;
-            _rb.AddRelativeForce(Vector3.up * _fuerzaSalto * Time.deltaTime);
+            StartCoroutine(Retraso());
+            _rb.AddRelativeForce(Vector3.up * _fuerzaSalto, ForceMode.Impulse);
         }
     }
+
+    IEnumerator Retraso()
+    {   
+        yield return new WaitForSeconds(0.1f);
+        _checksalto = true;    
+    }
+
     void Ataque()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && _disparando == false && _municionArma > 0) 
@@ -158,11 +177,11 @@ public class Personaje : Vida
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            _velocidadCaminar = 1500;
+            _velocidadCaminar = 6;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            _velocidadCaminar = 800;
+            _velocidadCaminar = 4;
         }
     }
     void UI()
