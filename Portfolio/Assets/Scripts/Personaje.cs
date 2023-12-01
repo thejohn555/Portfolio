@@ -38,6 +38,7 @@ public class Personaje : Vida
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         _Palanca = GameObject.Find("Palanca");
         _municionGranada = 3;
         _municionArma = 20;
