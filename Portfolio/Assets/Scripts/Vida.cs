@@ -13,25 +13,24 @@ public class Vida : MonoBehaviour
     public float vidamax;
     private int _suerte;
     [SerializeField] private float _menosVida;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Salud = GameObject.Find("Vida");
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        _menosVida = ((0.8f / vidamax) * vida) + 0.2f;
-
-        Debug.Log(vidamax + "  " + vida);
-    }
     public void Daño(int daño)
     {
 
         vida -= daño;
-        BarraVida.GetComponent<Image>().fillAmount = ((0.8f / vidamax) * vida) + 0.2f;
 
+        if (this.gameObject.CompareTag("Enemigo"))
+        {
+
+            BarraVida.GetComponent<Image>().fillAmount = ((1f / vidamax) * vida) + 0.2f;
+
+        }
+        if (this.gameObject.CompareTag("Jugador"))
+        {
+
+            BarraVida.GetComponent<Image>().fillAmount = ((0.8f / vidamax) * vida) + 0.2f;
+
+        }
         if (vida <= 0)
         {
             if (this.gameObject.CompareTag("Enemigo"))

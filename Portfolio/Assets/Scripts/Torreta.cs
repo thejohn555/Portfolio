@@ -29,6 +29,7 @@ public class Torreta : Vida
         rangoAtaque = 10;
         atacando = false;
         vida = 10;
+        vidamax = vida;
     }
 
     // Update is called once per frame

@@ -37,15 +37,18 @@ public class Patrulla : Vida
         tiempoEspera = 2f;
         i = 0;
         vida = 10;
+        vidamax = vida;
         jugador = GameObject.FindGameObjectWithTag("Jugador");
         navAgent = GetComponent<NavMeshAgent>();
         pRuta = psRutas[i];
         navAgent.speed = velocidad;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        Mira();
         if (jugador != null)
         {
 
@@ -129,6 +132,12 @@ public class Patrulla : Vida
                 break;
             }
         }
+    }
+    void Mira()
+    {
+
+        BarraVida.transform.parent.LookAt(jugador.transform.position);
+        
     }
     
     private void Ataque()

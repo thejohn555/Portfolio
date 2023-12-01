@@ -151,6 +151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torreta
       objectReference: {fileID: 0}
+    - target: {fileID: 6340333199636551372, guid: 4af51e0ce00a8ee4cbf63164a7a6ecdc, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
     - target: {fileID: 6798536587302555895, guid: 4af51e0ce00a8ee4cbf63164a7a6ecdc, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -65234,30 +65238,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: Salud
+    - target: {fileID: 296905914596564106, guid: aa978b72ed698c041863ab0089349020, type: 3}
+      propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 8172125301772669940, guid: f6bd10bc88b577141b2fac53d3dd442a, type: 3}
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: MuniArma
-      value: 
-      objectReference: {fileID: 2239825950786416565, guid: db8052c97b6b3774eaa9782626335c5c, type: 3}
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: velocidad
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: rangoAtaque
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: rangoVision
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: MunniGranada
-      value: 
-      objectReference: {fileID: 9188173261568301216, guid: 21c962fdfa2687845a78cf13699999e1, type: 3}
+      objectReference: {fileID: 963194227}
     - target: {fileID: 1294916228216760222, guid: aa978b72ed698c041863ab0089349020, type: 3}
       propertyPath: psRutas.Array.data[0]
       value: 
@@ -65266,25 +65250,9 @@ PrefabInstance:
       propertyPath: psRutas.Array.data[1]
       value: 
       objectReference: {fileID: 1325691611}
-    - target: {fileID: 3434405923441195728, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: m_Height
-      value: 2.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3434405923441195728, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: m_Radius
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 3434405923441195728, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5285237618684663223, guid: aa978b72ed698c041863ab0089349020, type: 3}
       propertyPath: m_Name
       value: Patrulla
-      objectReference: {fileID: 0}
-    - target: {fileID: 5285237618684663223, guid: aa978b72ed698c041863ab0089349020, type: 3}
-      propertyPath: m_TagString
-      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 7356514237181393494, guid: aa978b72ed698c041863ab0089349020, type: 3}
       propertyPath: m_RootOrder
