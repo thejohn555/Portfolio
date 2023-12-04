@@ -22,6 +22,8 @@ TagManager:
   - Victoria
   - Enemigo
   - Suelo
+  - Escalable
+  - Boton
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,7 @@ public class Personaje : Vida
     private bool _llave1;
     private bool _llave2;
     private bool _llave3;
-
+    private bool _escalando;
     private bool _checksalto = false; 
     
     
@@ -38,6 +38,7 @@ public class Personaje : Vida
     // Start is called before the first frame update
     void Start()
     {
+        _escalando = false;
         Time.timeScale = 1f;
         _Palanca = GameObject.Find("Palanca");
         _municionGranada = 3;
@@ -62,6 +63,7 @@ public class Personaje : Vida
     {
         Mira();
         Movimiento();
+        Escalada();
         Ataque();
         Granada();
         Salto();
@@ -78,6 +80,13 @@ public class Personaje : Vida
         _hMira =Input.GetAxis("Mouse X")*_hSpeed*Time.deltaTime;
         _hReal += _hMira;
         transform.rotation = Quaternion.Euler(0, _hReal, 0);
+    }
+    void Escalada()
+    {
+        if (Input.GetKey(KeyCode.W) && _escalando == true)
+        {
+            transform.Translate(new Vector3(0, 1, 0)*Time.deltaTime*_velocidadCaminar);
+        }
     }
     void Movimiento ()
     {
@@ -178,7 +187,7 @@ public class Personaje : Vida
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            _velocidadCaminar = 6;
+            _velocidadCaminar = 8;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
@@ -224,6 +233,10 @@ public class Personaje : Vida
             {
                 hit.transform.GetComponent<Vida>().Daño(2);
                 
+            }
+            if (hit.transform.CompareTag("Boton"))
+            {
+                hit.transform.GetComponent<botonRampa>().Swithc();
             }
         }
         yield return new WaitForSeconds(1);
@@ -291,30 +304,16 @@ public class Personaje : Vida
         {
             GameManager.giveMeReference.Win();
         }
+        if (other.CompareTag("Escalable"))
+        {
+            _escalando = true;
+        }
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-            if (Input.GetKeyDown(KeyCode.F) && _llave1 == true)
-            {
-        if (other.gameObject.CompareTag("Puerta1"))
+        if (other.CompareTag("Escalable"))
         {
-                
-        }
-            }
-        if (other.gameObject.CompareTag("Puerta2"))
-        {
-            if (Input.GetKeyDown(KeyCode.F) && _llave2 == true)
-            {
-                Destroy(GameObject.Find("Pared 2"));
-            }
-        }
-        if (other.gameObject.CompareTag("Puerta3"))
-        {
-            if (Input.GetKeyDown(KeyCode.F) && _llave3 == true)
-            {
-                Destroy(GameObject.Find("Pared 3"));
-            }
+            _escalando = false;
         }
     }
-
 }
