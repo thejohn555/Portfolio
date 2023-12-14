@@ -11,6 +11,7 @@ public class Personaje : Vida
     [SerializeField] private GameObject _salidaGranada;
     private GameObject _Palanca;
     private Vector3 _spawn;
+    private Vector3 _vectorGanchoV1;
     private float _movimientoF;
     private float _movimientoR;
     private float _hMira;
@@ -31,13 +32,15 @@ public class Personaje : Vida
     private bool _llave2;
     private bool _llave3;
     private bool _escalando;
-    private bool _checksalto = false; 
+    private bool _checksalto;
+    private bool _gancho;
     
     
 
     // Start is called before the first frame update
     void Start()
     {
+        _checksalto = false;
         _escalando = false;
         Time.timeScale = 1f;
         _Palanca = GameObject.Find("Palanca");
@@ -61,9 +64,12 @@ public class Personaje : Vida
     // Update is called once per frame
     void Update()
     {
+        Gravedad();
         Mira();
         Movimiento();
         Escalada();
+        GanchoV1();
+        GanchoV2();
         Ataque();
         Granada();
         Salto();
@@ -74,6 +80,13 @@ public class Personaje : Vida
 
         //  base.Update();
 
+    }
+    void Gravedad()
+    {
+        if (_rb.velocity.y<=-0.9)
+        {
+            transform.position += 7.5f * -Vector3.up*Time.deltaTime;
+        }
     }
     void Mira()
     {
@@ -86,6 +99,35 @@ public class Personaje : Vida
         if (Input.GetKey(KeyCode.W) && _escalando == true)
         {
             transform.Translate(new Vector3(0, 1, 0)*Time.deltaTime*_velocidadCaminar);
+        }
+    }
+    void GanchoV1()
+    {
+        if (Input.GetKeyDown(KeyCode.G) && _gancho == false)
+        {
+            if(Physics.Raycast(_camara.transform.position,_camara.transform.forward,out RaycastHit hit, 10))
+            {
+                if (hit.transform.CompareTag("GanchoV1"))
+                {
+                    GameObject Diana = hit.transform.gameObject;
+
+                    StartCoroutine(Gancho(Diana));
+                }
+            }
+        }
+    }
+    void GanchoV2()
+    {
+        if (Input.GetKey(KeyCode.G))
+        {
+            if (Physics.Raycast(_camara.transform.position, _camara.transform.forward, out RaycastHit hit, 10))
+            {
+                if (hit.transform.CompareTag("GanchoV2"))
+                {
+                    _vectorGanchoV1 = hit.transform.position - transform.position;
+                    transform.position += _vectorGanchoV1.normalized * Time.deltaTime*10;
+                }
+            }
         }
     }
     void Movimiento ()
@@ -249,6 +291,15 @@ public class Personaje : Vida
         GameObject.Instantiate(_granadaPrefab, _salidaGranada.transform.position, _salidaGranada.transform.rotation);
         yield return new WaitForSeconds(1);
         _disparando = false;
+        yield return null;
+    }
+    IEnumerator Gancho(GameObject hit)
+    {
+        _gancho = true;
+        _vectorGanchoV1 = hit.transform.position - transform.position;
+        _rb.AddForce(_vectorGanchoV1.normalized * 50, ForceMode.Impulse);
+        yield return new WaitForSeconds(1);
+        _gancho = false;
         yield return null;
     }
     private void OnTriggerEnter(Collider other)

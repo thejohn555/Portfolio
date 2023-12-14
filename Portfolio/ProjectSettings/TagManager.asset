@@ -24,6 +24,8 @@ TagManager:
   - Suelo
   - Escalable
   - Boton
+  - GanchoV1
+  - GanchoV2
   layers:
   - Default
   - TransparentFX
