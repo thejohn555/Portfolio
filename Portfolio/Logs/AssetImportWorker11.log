@@ -1,0 +1,2376 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 31891 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+D:/Programacion/Portfolio/Portfolio/Portfolio
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+60083
+Successfully changed project path to: D:/Programacion/Portfolio/Portfolio/Portfolio
+D:/Programacion/Portfolio/Portfolio/Portfolio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29448] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3004300162 [EditorId] 3004300162 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ILG9IT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29448] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3004300162 [EditorId] 3004300162 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ILG9IT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programacion/Portfolio/Portfolio/Portfolio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24156 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006084 seconds.
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.142 seconds
+Domain Reload Profiling: 336ms
+	BeginReloadAssembly (50ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (48ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (67ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (110ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (114.4 KB). Loaded Objects now: 4013.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 3.789100 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.237800 ms MarkObjects: 2.965200 ms  DeleteObjects: 0.157100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29212.120541 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c47cc56ae4789e725382f499c391dbd') in 0.064846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.555482 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac11e3376a523c827759aae7ad6cc50b') in 0.014693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.399214 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5589d7648acae86db90bb295fc545060') in 0.071043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4310cd35ef8726f61785139a79d037e') in 0.010638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.963715 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efc1fbd70f7969ff5a95d27b78101b6') in 0.016516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.575160 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1714cc96b68f2ae830b9ac0ae6cf833e') in 0.105778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.777583 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13491f04e215a2300d05816463368b76') in 0.021434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11b5e85ad546daa8c3abb57f3481f44') in 0.007314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.786449 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5a52cbdb57679dc85f2491c988ada') in 0.012052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bbf486e164aebe3c83440f41253e52') in 0.006206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.401117 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b95aa296462771baa300d20e2e607') in 0.006207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e02e9f5d5950d5144f87363440d01b') in 0.005553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 34.209327 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537ba42a9f9243666da2051a1cb59ed') in 0.004522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.251460 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234b8a099bda86d16b8197f2acf46723') in 0.017867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.219873 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117d8c4fe21352c3f312a0699ca1c220') in 0.027461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.440994 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ec87ea60cf88cd2a98b1d63c1db6bb') in 0.004098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.035202 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c3ca3e4bd38f490e44d9f4b190ee1b') in 0.006534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.430317 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89077fdf1d913b67d927b94a434f2ff0') in 0.007938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.840720 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ee24b9da7acaa3d5a09b73bf79d61') in 0.011614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.436515 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212adb1e263b64c9f4e0c9a6c8358693') in 0.004352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 18.493173 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df9605253b096c8264226e44bc675f0') in 0.007420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 4.477829 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18607ed757991175273950063bde0697') in 0.004450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 7.248235 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95de1a88e05b1c08a7e289b99751b8') in 0.005611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 5.523830 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce67059cd8ffbefddd7003f989515f7c') in 0.008729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 7.078865 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a8a266fa1d88a7ff61a65318422460') in 0.006542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 4.045916 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00785c746196db89e403c57ebe943884') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 4.622591 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa276abc1f0bc5b60aee3e41168466') in 0.007448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 2.664881 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ee665ac980d4c90e9481f7d4637a72') in 0.007076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 9.307774 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7708e98ab70d3c4f977baa6d181943eb') in 0.004039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.885928 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8fa9f826616c55292c394833c60346') in 0.021882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.440361 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af89940df48949203a3013e1e23c6a58') in 0.004344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.850740 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75157a1e0257f484c9f1f11845263399') in 0.005166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.178216 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf210788766ef33278a85aacc28424f8') in 0.005040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.460046 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a21235a71549dc10e367045a3cfb5db') in 0.004903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.608186 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4e529f20da9f96a64ea5831793db88') in 0.010119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.013339 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7253adf96ca3ac00df5840d939ebf5e9') in 0.004709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 9.714672 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3af55952e9c55b3361399a4a388825') in 0.005563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 8.564288 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905bace470678abaacec1145a163ff13') in 0.007045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 11.261328 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcc3007a3f5c1ae4dce76ed3ec71825') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 7.376997 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1f09ab7e8619888540ac217a079b3d') in 0.033336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 7.843957 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6a39274884e99f9dc46e1286005210') in 0.005135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 6.430527 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43264b56396beef7ac4200d560292d6c') in 0.014932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 3.971393 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa3b075e4d876361f74b173febe5f41') in 0.006553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 2.277771 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de18b993e086677102237ae5e1509008') in 0.005389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 20.038722 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96092fc1825eb270c2c09c4d4ed82937') in 0.007180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09625b394813767c26aaafe462c6fb6f') in 0.007131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 4.773828 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c735fdf525c7be8e2d755d04efe7da79') in 0.018326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8facd38fbbf848f3e34af002c98069') in 0.005323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.270306 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2459460e702c298d2fbd25d6888ea4b') in 0.005671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c531d83adefdd321808c87ae2890a08') in 0.005034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.242393 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f33636da114fabbea4c6f8de2be68') in 0.005657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95898b45bb5cf0f93d50c8497c219b5f') in 0.005238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 14.780601 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a698bdfe1ba4ac066b63bc6f32fd52a5') in 0.009707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be36bb1b3ea123d8a64cb35ce0526e7') in 0.006227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.769052 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658584625193c9bf11a02d74de6d601a') in 0.013589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306b1af472140d5c9e1459e62a3f12f') in 0.005011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 7.136241 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee12235ca6676b814b13cff608f161b') in 0.005451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11262d9a61eed4b061822ff5f02663f8') in 0.005277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.132910 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c769ffd836cf5c787d96ed8cf5bd32f') in 0.007717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277657b0d679e8f079ac08697bad1ef') in 0.004406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.299928 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fc9712896ad408223ce0cf9f6089b9') in 0.010401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba6b17424f6c05c3ba35eaf262125fa') in 0.040905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 7.844237 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895bbc6fe44e0bbca7bc464c13f0deeb') in 0.006963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d58347bcd7f43fc113ef71b780bcd67') in 0.008834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 11.738422 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d47de7228fd26a05b83c5ac980408b') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890f99dce7d16d05afa29b8df3f73934') in 0.005643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.693719 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5513e9ba16a2464da6b70d34a7fe47a9') in 0.006903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2175fe0b6de535389ae94d906b20f967') in 0.016518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 14.316704 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3a1bd3a2237cfaa8c1773b201cfa7e') in 0.010053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5edff24f8a989e9a0014547861e06e') in 0.004964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.199051 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f2cd679b375cff12152e0604c24a5') in 0.006801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb66e73e9a4201d25dea1b7ffb7779') in 0.008191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 1.595959 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e1000633f2b59b9f10c92b59a5b8e2') in 0.005739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7234f119c5b299e8c26369a2a4cb260') in 0.004668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.919078 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b1233a6aabe0e1afe9dd5561ffb3f1') in 0.006719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeb37a40169e3897a96faff1ac43fb9') in 0.004949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 24.995443 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc95f99534492b771e54da27539a9c6') in 0.006475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e882e768bc04d4b856d8eea5ac6d83') in 0.007344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef02f2fb5f8ecbd598b0c8503ed440') in 0.006942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.902636 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d76d409be8caf7bfbfaf9d3ee18eb65') in 0.005698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b59bdeaa4213d7e001714c2424ecae7') in 0.005180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 6.280513 seconds.
+  path: Assets/Prefabs/Proyectiles/Granada.prefab
+  artifactKey: Guid(f8f386baec116e44ab82585acbce243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Proyectiles/Granada.prefab using Guid(f8f386baec116e44ab82585acbce243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750321e36366e300953ae0f0f813f435') in 0.007728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/Elementos Del Juego/Jugador.prefab
+  artifactKey: Guid(2c41af160674ede4b9546e26098c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Elementos Del Juego/Jugador.prefab using Guid(2c41af160674ede4b9546e26098c67b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14817dc9244555d3ea6656109e34bef') in 0.003556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.004343 seconds.
+  path: Assets/Prefabs/Elementos Del Juego/Main Camera.prefab
+  artifactKey: Guid(ee8449037f2a36b4d94a2a1048719cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Elementos Del Juego/Main Camera.prefab using Guid(ee8449037f2a36b4d94a2a1048719cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0953a8c787ffb5747f31e9bc5e018540') in 0.036361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.530716 seconds.
+  path: Assets/Prefabs/Obstaculos/Barril/Barrel_01.FBX
+  artifactKey: Guid(e1e5f7e02f024c64ba9853eb71ef6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstaculos/Barril/Barrel_01.FBX using Guid(e1e5f7e02f024c64ba9853eb71ef6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5802e78fd965bde7de942cea65694bc6') in 0.049230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.201953 seconds.
+  path: Assets/Prefabs/Proyectiles/Bala.prefab
+  artifactKey: Guid(b10562cd72017154bb1119f10557b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Proyectiles/Bala.prefab using Guid(b10562cd72017154bb1119f10557b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7ea239b1b8ee63a8b434b09cca759f') in 0.004515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.330636 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033173aff6edc47d43b0c3da4b6ca96') in 0.006103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab1e5fde559f4518cc1843aacb36631') in 0.005598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.512104 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e589276564a8ee9fa626d6758fce44ba') in 0.015593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5126da3e5152a12a1c56282495b2199') in 0.005228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.682482 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4880c1d590d6b074cefa98c225e73fad') in 0.015293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3aa7afd7ae27d9eb5a92dcebade2fa') in 0.005254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 11.052732 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1420e2c4794a88f9bd2c35245fec2413') in 0.039490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae1351375a8cfd5fa89e168c1ac9ab4') in 0.035984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.422507 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6188e0c5247fe8f0d40cee3bd595564b') in 0.007400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d09545d3cf60f4b8c62323605c7fd8') in 0.006291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.236428 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e114a72855afe1b14a7e8e244f1d29fc') in 0.005830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d456759d96dabeba2eefa0d06e052') in 0.005286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.207219 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb97458277bd6fb0f95898ae02a8cc9') in 0.014708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd494e2537ae64a17fa4469379335e952') in 0.005720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 5.488749 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1e6fc8ee4e24812cc396261b902ba') in 0.006236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8774157a0d566e5db48ed0c457fc7300') in 0.034622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 5.792889 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b19e1586c76492deef52454800c18fb') in 0.006559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a359094a512fd64b4b7c6c1e126641a') in 0.050919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.508720 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3279aba22ca7fdde9054c1b9a890a1c0') in 0.005524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33ce1cd221abebdfa175b3f39591d07') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.319882 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53277c27bda682a191e7a88fde09cc8b') in 0.005928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe385fdbd24e743bddcc8041b92edeea') in 0.006368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 9.031510 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e87c38e9c35d9918f20df63afec8f3') in 0.013196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.661861 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf5836609fd8f3fa700bceca181e994') in 0.006979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83948095507e84f145bf9d208bdeddaf') in 0.008975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 6.391115 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd295c64229c90a742acf3c4733baae05') in 0.028757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.310907 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8bf3489f75e3eb3701ddc49ddf4c6b') in 0.006485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecc4f2a65090205e7aa1636a9ca402d') in 0.005156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 12.882805 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb6c63247cd79155323d92ef1934d70') in 0.014018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fa9e383d95cfefb84801376c6d4692') in 0.003619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.062592 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697062f46b38da4aa6eb8073ffacd377') in 0.005425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b12a43c34b6ec7ed405519799cf7ba3') in 0.004193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 1.822590 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5b4ed34311632f0acedc8ab62f49e5') in 0.006235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e77eb1da2c97196004c34857299d43') in 0.006746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.034239 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee87858d34534c96e7901ec81ffcb85') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d057c311c65db8572b07db07f48844') in 0.005503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 14.072320 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad238328dbbe96b5c6d6041b17879cc8') in 0.019772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4ffe517bea875dc0779919f9584ed4') in 0.009676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.996104 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e502871d6d79bd75d45344643fd1242c') in 0.017509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cafc8c50c1d5e50ecd898f5e420b81') in 0.004870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 2.827758 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae00969ab055a7000e9ad0d368f38cc0') in 0.005552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2aeeb7cef9d3d6ff69ca970dcc5aa6') in 0.004980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.283514 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4704f837c160a9cd27b5a477141928') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65915260d397790603b1ce40905e2f2c') in 0.011845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 8.058830 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c18666659502965955538380ce12a58') in 0.040364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab496ccab821540b6e2f64118094099') in 0.020373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.694561 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dc0f76e14d64673e5fe1be4a4f47cd') in 0.010426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6e2f20f6ee1da89401fd458b81d279') in 0.015060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.543367 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9e0494048444ca6dc86368f1b78345') in 0.006707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1757349c3658a5f1000361c3b23634df') in 0.015209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.230023 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a104e2ffae0554807169eb52e41c91') in 0.009134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62f05e4cc69d765387542a588baa17') in 0.004522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 8.756727 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03038b3a17dccadfb05c2eb539f0eb20') in 0.007509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa9f0613d25e275049eb107c2af5daf') in 0.040938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.495948 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8b017ac5e4d2b9a66d29d919ffd234') in 0.006240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f05d69b1d03dd291a70246908c96c') in 0.006977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 6.758246 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee2f6df60ade1a1ee015d4392848573') in 0.013648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f7619509bd3fd760fcc4a609f86aab') in 0.010984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c53604bda9eb2aef097e808df0ad953') in 0.005018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.987932 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e422116740985031deea9ac4ce653e1') in 0.007657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3e5e5037aa8766a58052912815989b') in 0.004582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 36.422351 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7843d841de973b1006cb1681f665fa9d') in 0.006471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061f030572a6e3e54b1c036d49d66e44') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.789729 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera X.prefab
+  artifactKey: Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera X.prefab using Guid(4a7fdc92b4d4a2f448b6cb2c1821322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec65dc375492fc2c12a05b4e8bb6188a') in 0.010411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d47a276caeb410f2e10b9d247e10f') in 0.005350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.246827 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789c4d0771344effe44a4c72a50aa1ea') in 0.006773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393f9834ae9131146ab2421d7bc85e54') in 0.007561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.076200 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56a7f902be27e41d1cff44ac073978e') in 0.006630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fb48433a5290ad043c7b6a55816eab') in 0.006231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 18.215882 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206279e195c8cb057bdecbb0b258f684') in 0.012158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db0a5fbcca92f8ff53112b8f5908876') in 0.004960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.357227 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9475aeec17312f7434208b9d7bfc15bb') in 0.006985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fe704eae5af9e85dc55674fa2e078f') in 0.011938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.632850 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0864bcecd3ec69125d85d5c119afd29b') in 0.006134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6346656415b8c08d6a7e851d979b5') in 0.008192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.197847 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4251124bdcb5a257b04f37d800b684f6') in 0.005240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147a3057c5a3a9d4cced0e6d5dc144a3') in 0.005404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 13.779320 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2821e0fa1616c7dc6529d65a2ca27b66') in 0.005965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69befbc58ef8f9e25997b43adef329b6') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.343261 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b7d2654210edc3d86c4588d25bc5f4') in 0.006529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c8907208af8927a31b9ccd8c483c8a') in 0.006508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.274139 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b4527e6c0f677786aa0676cbea66f') in 0.011783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.879049 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aab6c1efaf8db84d150827e5f207d39') in 0.006101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295cf17ca100222812b6db43a756898c') in 0.009599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 9.016780 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a683a58347ecd05a00b18542356f16') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3937b13cc5d5853ce6e9542ca33b79b') in 0.009235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.081849 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6d921ba9a9555e6e9e0bc9c1756012') in 0.018336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dd4abcc152f2c78091fe88ee0ec5f3') in 0.005000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.274564 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18286fc599aed348bcf949a81a0757a2') in 0.011051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310242873b3fc607d2205c41bbbabe86') in 0.020575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.127323 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ad5af4715e6f1f76a527224c36973') in 0.005547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d526a5ad3249c3fb04244df0ddb9167') in 0.005507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 49.374314 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2f069c3b0926ef9785b6e9c99a5e37') in 0.005479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5a5a25d622eab68166eaef57e3d4ec') in 0.006395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.003227 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c99e243f66ebd37865a053543c70bf') in 0.008838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9322f3d0e71e7fa0a1970f02e892069') in 0.005999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.844705 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52acd4dc86f552288b4a3914cc987049') in 0.007839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca4c64816429e3c0059ec4f653cfe4') in 0.005153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.430453 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0318d2f2978104c7f1e5f8295359c66') in 0.005633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4422f7d240dd86bf00753ba247ae6e') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.126926 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7f5128e288036af1829bcaa30cb1f9') in 0.008853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3006953eac9641753a802af7d7a6678') in 0.009472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.887530 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c7a63f5adcd4c4673ec4072f61fbf') in 0.006675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936445c0349713a3f7a237defdd20aa8') in 0.019026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.037269 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6444caca99c4c8e7a63105f16c61c78a') in 0.019387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d9317fb49b49f28841d92e12e7a917') in 0.005445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.620043 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a6d0887169793913e3432dc6a9ba4') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c5d445ac516e16f4ea5efb1378ce6') in 0.014930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 8.214851 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d76c6ef72334ea5b550d1d92bcd929') in 0.005740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317a33ffa59addc7d6a065cca6c8dd0') in 0.008290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.852775 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95fd2391608a1228468e5011702679c') in 0.012644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc4a018b7754610b91e3e3063735832') in 0.005342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.749275 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fea0d9696637b97aee8f5af1080fd50') in 0.013390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d19eca6baa87b05152af01a2ccd80a') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.992904 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297915660bc19fec1a60396fd6ddec8') in 0.005992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ba61667cd8bee8678b7745021502ae') in 0.005962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.238309 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcb292aa992415af4dd47b95b3e37f2') in 0.006596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3326949233dc787b574ecf391d5c79') in 0.008282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 9.638083 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9c78c2239dc696bb63d124a5dd01c0') in 0.009129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd7b7f6799937590096a7da1c7c4fd') in 0.016286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 19.787650 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc568704fcf4a908ce56a434146ff445') in 0.005545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cf99e6562adb4cc8dd9d5db546e96f') in 0.006038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.772094 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1836089b65b7556a4659468c6d460f55') in 0.005877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21ff0f19eb36c43236dec25a2b461f3') in 0.004738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.957431 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135e4264801058a3e0eee272622abed7') in 0.014935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc274f62cd9bb370704accfb88afa7') in 0.009328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.176775 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156d2a35dac821181baf91da67623c3') in 0.019562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf93c1db1d30509cce85aa057657580') in 0.004848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 21.570653 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb36936226bbe495e62bb246295ec4ed') in 0.043982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc25cd7d637a648057a2d40cd45a19') in 0.053754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.444060 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4710a149c04c91f4dff214d924c58993') in 0.029410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5100177abaf36e9ccbb4f5e343364e55') in 0.005182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.818241 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d0bb302ad5f1ae4088827300f3c00e') in 0.005326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9859435fec9a194d6e8a4bc8df122d8') in 0.006193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.014628 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d09f5900f917466563f8213c8a09e1') in 0.006338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e70a2de889449316419876cf556cf7') in 0.005342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.464769 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0b3caa5c33664d27a71dcafe29c503') in 0.006155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pruebas random generation/Prefab/Grass.prefab
+  artifactKey: Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Grass.prefab using Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db21cab13acfef119bcdd4e38d609681') in 0.006023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.054308 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645bb23bab065dcea49eb99eef9681cd') in 0.006520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.073194 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f73e711616cc722017745894dabcbf') in 0.006183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544f9a3d41daceda46602f4a366e26f9') in 0.011326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 1.788920 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6be2ea287a06d1ace03321f2b5757a') in 0.005704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881220d7ab626308e19bd63cc3af5c01') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 30.786164 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc6a6f1c3e2b9d53b5a4bf9aa18111b') in 0.015669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.915000 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535f5a0bed26bdd815c206b4951a287f') in 0.005418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7187877ead0d2afb4578f58ea64178c0') in 0.010598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 9.862424 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac25c04ae4cc9a02274853da4aeee38') in 0.037011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Grass.prefab
+  artifactKey: Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Grass.prefab using Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e31230192803f0446b6a687a84d8d0') in 0.048896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.874745 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429c1e0ebe9dfbbf5306a8b100bb5772') in 0.041509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 14.773826 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321b37244b78f6f6675ca3fa1005cfeb') in 0.010812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0671973573b8c57f05b2dddf739939') in 0.022160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 13.362528 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63425ba71fc3956bc3b4624666816762') in 0.036335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 16.096756 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad9403a30aeb494b31609977640865b') in 0.005898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072ffcbcad3effe6b57c0728cfb446ae') in 0.014687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.034290 seconds.
+  path: Assets/Pruebas random generation/Prefab/Carretera Z.prefab
+  artifactKey: Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Carretera Z.prefab using Guid(b6207b2650222574cb461c470cfcf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5411af11b152e6988483c5e946543d3e') in 0.005699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbed330d69088c2477e257c47e5f7b4') in 0.022481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 855ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (86.4 KB). Loaded Objects now: 4064.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 4.092800 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.173300 ms MarkObjects: 3.339400 ms  DeleteObjects: 0.126200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.436 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 875ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (94.7 KB). Loaded Objects now: 4067.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 2.394000 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.104000 ms MarkObjects: 1.949700 ms  DeleteObjects: 0.094200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 882ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (86.4 KB). Loaded Objects now: 4070.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 3.778900 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.912700 ms  DeleteObjects: 0.127600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (86.5 KB). Loaded Objects now: 4073.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 3.906100 ms (FindLiveObjects: 0.513900 ms CreateObjectMapping: 0.138800 ms MarkObjects: 3.085800 ms  DeleteObjects: 0.166700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

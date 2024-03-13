@@ -1,0 +1,1648 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 31891 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+D:/Programacion/Portfolio/Portfolio/Portfolio
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+60083
+Successfully changed project path to: D:/Programacion/Portfolio/Portfolio/Portfolio
+D:/Programacion/Portfolio/Portfolio/Portfolio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25060] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4062915707 [EditorId] 4062915707 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ILG9IT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25060] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4062915707 [EditorId] 4062915707 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ILG9IT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programacion/Portfolio/Portfolio/Portfolio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24156 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005073 seconds.
+- Loaded All Assemblies, in  0.180 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.139 seconds
+Domain Reload Profiling: 318ms
+	BeginReloadAssembly (46ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (45ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.276 seconds
+Domain Reload Profiling: 682ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (106.4 KB). Loaded Objects now: 4013.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 2.324900 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.968300 ms  DeleteObjects: 0.114500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29573.757182 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3954a0ed765bd3e316d6a500565fc432') in 0.060658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.259516 seconds.
+  path: Assets/Prefabs/Drops/Municion Granada.prefab
+  artifactKey: Guid(21c962fdfa2687845a78cf13699999e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Drops/Municion Granada.prefab using Guid(21c962fdfa2687845a78cf13699999e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96673ba89ae47f30295235f60733ecf0') in 0.029753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.122715 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c36279d5f1941047abd4f761488e13') in 0.006866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.517941 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a723c7e6beaae032e1282f907cba30a9') in 0.019399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.684864 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a18dd1df376800ffea73debce44597') in 0.016041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 11.058683 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae916900629d18698d20fcdfa07efd8') in 0.049085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.450321 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d55c8a907fa90321d28410e51bdcca') in 0.009403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.243887 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e89e74ddd6bc3d3f436c4e562616b1') in 0.007235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.213105 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb1862176ad70216694e826adeff401') in 0.015374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.495134 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fcf571481777bda7bf3a5dc17f4c4e') in 0.008718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.825821 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aebd033a65f3b5bb759a85e2c7df85') in 0.007836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.554329 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a05798d20c686185cd7f19ad87cb34') in 0.006677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.324648 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6968ee7c4393030ced99407b28c59270') in 0.005334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d403d20ad6369f39ab85cb09de18e92') in 0.009674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 9.028695 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a4fe500f9da88b42acbf53f968ae15') in 0.013021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c977affe96b162a6232dfa88c17abf') in 0.004687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.648598 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce506604fea8bc789f4e388a67afc411') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.396962 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42252d9b707013a341daab0cb5545a6') in 0.011050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1de0cc4cb4928d943f340ffe274f37') in 0.025057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.302715 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400e9e0932892afd9d8e12f74abe50ac') in 0.007278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 12.888751 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e597de98a7f5f40ef3dc3082f684b1') in 0.016792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a22158e748ae5ee8d14588951d5bac') in 0.005051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.056973 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c2ead3dc6f37a924ca912aa50c9f1d') in 0.005060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be4d517dc6172832582c7f61d45d378') in 0.003795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.823620 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7e9dd76ff816748652a6ba8a731ea4') in 0.007338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04adad817d870fe38fcae0363ba18d23') in 0.009218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.030575 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee5f2920b2623a39c0c124ec6ed289b') in 0.008979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96711d7b91596d68d51223e6be72cf2') in 0.006091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 14.072107 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb1d45884e269586514936fdaac10a3') in 0.013841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b10ddaba6127666b9cc3b963321be6') in 0.012721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 4.985149 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c836aa1cbe19b0dd644a83612dc049f9') in 0.018241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af6adca9cc4450bb0eecc3bc2c20cc') in 0.004938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.826713 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb1ad2682f828c73cd02a34ce91660') in 0.005202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770cf070080db12903d2f0fb67dee824') in 0.006060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.283121 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94d678afb5e3607e8fe6442cd2d9438') in 0.007440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6116d252af19f75ffc4659230e6bf9') in 0.013274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 8.055952 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acae5f46fad2aad61e9a8a6fddddd185') in 0.012579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd391cc5d13e1daf101aaf4b26342c491') in 0.033818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.709000 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f25af9c1f4f43e3d6b704661ec6e12') in 0.009795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c8434c493ac6ab4c19face813fa5d1') in 0.016215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.542838 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e87794bef395e59eb1a56ca7aebba1') in 0.005699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1d0f4a6f3fe82acba3e1b2f06dd02f') in 0.006672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 4.239671 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81fcac90b531eafc74821354fde5a2') in 0.008336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfe076eaccf94fd24daa2fd4efe6ad8') in 0.005268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 8.756473 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2341bac00688459fdb02f4ef35076fa') in 0.009056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6cc215a080eabff4dd7e2eb06efc66') in 0.015148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.520243 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa9082bb53233ac8988e64d4e01ec65') in 0.005221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ba6e786fc0f3d94d2f1d41614297f4') in 0.005599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b6ccb7bb814ceb868392bbad68dc9b') in 0.008887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 6.750999 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd42ad8ec3bd5c2b41bafca78ea80343') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed79ee35700a3f625be0fa18e1d0eb80') in 0.032559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 1.993475 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc3002ad3304f2731107828866a3a7e') in 0.007375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65adc53a3fe9dfdfddedc0bd8e8e36') in 0.004548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 36.422629 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc0b5d8ed5828206a14c2b0fe9cc78b') in 0.007302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24f1a063a4b77f130751b69152aaba0') in 0.006393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.783639 seconds.
+  path: Assets/Pruebas random generation/Prefab/Cruce.prefab
+  artifactKey: Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Cruce.prefab using Guid(b487dccc306a5244e94aa72d07022250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beb11f5d07a10fe3c8da005f7f0f8e7') in 0.010451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef068b2c0cb4d132f1fcb83779a26281') in 0.004905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ee6817cb4ee2f5487505e7f4610e8e') in 0.004626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.241962 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdabf77e714939f9274d1a2f59425dac') in 0.007723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b38faaa721ca7754de0d899b3d35df') in 0.008628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.074388 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677458fdf1c33afa535172a2cbedbbb7') in 0.007450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c09c8388f29cb04632138af83755a') in 0.010439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 18.207397 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecbe004be195ef953928b53270bed3') in 0.012456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.362657 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b425e4f87950dbcd0fa2f2a8419015') in 0.007500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e79f1673d902c3e2c8693a5bc1d343a') in 0.008338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.633126 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec8a677af1b4a1ffb936a54993d71cf') in 0.007617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f02f484789716c7cb8f4753f69998c') in 0.013496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.191036 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecc8ea892f50dca75052515b1c8e611') in 0.005530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f892e7f86ec5c38686a859ea3bd7054') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 13.779733 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c636d183771a33cbcf3017069fd5a9c1') in 0.004970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afad95a4055ffe3040a8457353cf8b42') in 0.004662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.344309 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315cc82eb08b68065014293ad4be0559') in 0.005350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea787586d2674ed6f65e8f5c48dfd534') in 0.008478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.274201 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569106f1d7e590e86cdf842422bdf0fe') in 0.010720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622de34e19da6b44c3fcb95e0473b097') in 0.005690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.873963 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb8cadea4cf3ebee955deb65624d779') in 0.006920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 9.026476 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e902f600d169f3b7403c9c1a086527d') in 0.015799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c0df9407d6b1194c7c56a7b07843e') in 0.009942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.081097 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a925321f3e242c737ebf02cc317a6d1f') in 0.018246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da33cd88a2fa0af322d592923e4c54e') in 0.005015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 4.274678 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db858966c5090e007883a8779c9e113') in 0.015899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3755b8a63da901b57fedc8ac480a6356') in 0.016206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.126853 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8638762a68d71a155ca95c7d4d60083') in 0.004743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e83d2e583d0221b4e4dca6e5aa25a81') in 0.006102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 49.374945 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc055639c76e0997245d0f7b1b696202') in 0.006406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2f5704b7801ae7ef7a82191c979e6a') in 0.005271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.997825 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53ce7a951a4f63289e6aca4d6049d9c') in 0.008664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438b70102240cbfadd5da544a05c5f35') in 0.005920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.844989 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e4a8a83101dd4fd34bcd980e04ee89') in 0.008164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712eb7df5b0ba657a9a181910c6aa039') in 0.005539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.429699 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b060492ba1351f7484758a3178060202') in 0.006171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037ca01e626bd0933f1e84c55a91c329') in 0.005821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.127497 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e82c4fe9dc9e001633c8f5c2122a3a2') in 0.007128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df295bebcb10e828fc9af7824a888cb2') in 0.009345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 3.902294 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879eb459968d6ff9b601fb0d306ed2eb') in 0.007968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139344961b6655fedbd7b8e1cdb974a0') in 0.023952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.031401 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb3a22048bbfb1632ae2f78898d3488') in 0.018611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da5ede711317bb3ed4a0a6d50081fdd') in 0.005784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.620461 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37159a0cb39c0a29784ab652eebfa4d5') in 0.008460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c7ecb16b96bf949769802cc412d52') in 0.011275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 8.222452 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1a688b65229784badf0936a5b36369') in 0.006450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5306c0f28c0ec11db8c15c689be4a73') in 0.010251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.849897 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec311de796071cafcc2faaa96b86baa4') in 0.012475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c9c9a9362c161defe5f53fb72baa56') in 0.006611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.748005 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139f8dbab7aae149973ebcbeeb6cdf38') in 0.012469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c461d3215cf3b69acece699465732ab') in 0.005882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.993542 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd489209894fa955a22ae9da1a3f7bef6') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd38fb6bc4fec341448d0883a99d6341') in 0.005822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.231395 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce24d252f604b924f478f975576fd540') in 0.007307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768c8c846b2bc8383e958de02b4ca329') in 0.011452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 9.637635 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e054a479a8ceef3489a7cbf588822a') in 0.006094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b53e817159985c6d686f9c2cff3d6a') in 0.012119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 19.794797 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e6e3181d0376fef9af7342802b34e3') in 0.005893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a14c491799368113ddc1548f82d5f') in 0.004996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.766915 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be492790e6b891782407fb878407c9a4') in 0.006680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ac5c686e24622f230c9a0c839b55eb') in 0.005281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.955953 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6ea9be2fb73d1c0f890e79c237acc9') in 0.019615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f76b17968534e1937ebce3cc2dd19a') in 0.005585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 5.170940 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c35ab05ba69ceb51d12651a68b9f66') in 0.007660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc36797770034715036594055dfa1f29') in 0.011747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 21.575708 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab
+  artifactKey: Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X +Z.prefab using Guid(b3a2c9f993a289a4ca36007995c3ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04820ad6bdd75225eeb0d742fac39ef5') in 0.013780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2ee873bd4afdd02634ee659073fb31') in 0.035160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faa57b68aacb4e5ea5443ccaad1717b') in 0.020897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.470740 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59db401a0d18304d21894b56bc0ec4da') in 0.029198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e15c36e04c0690629d0750541f762f9') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.819233 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b860d4d2635ae1997b436e0fac1a1') in 0.005800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Grass.prefab
+  artifactKey: Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Grass.prefab using Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47b893453b2689532c10054e73776ca') in 0.004365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.016603 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c44923848e63c475b69b8bdc6b93c8') in 0.007030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Grass.prefab
+  artifactKey: Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Grass.prefab using Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d3715e8c1606456e31246623c63f8') in 0.005194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.464199 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57be1c59c54b51a1a14af102489848') in 0.005249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Node.prefab
+  artifactKey: Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Node.prefab using Guid(e9613df89c1098c42a35fd7e9c2ef50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7e4f396eed28379855d420b2083112') in 0.005083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 2.060851 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b46b91d545b2f7a3a0e32970834304') in 0.005494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eee70b4080df83f6a5acbd7d71556c8') in 0.005803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.067521 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e5d5df829f4d2f81b7da46a4ded65') in 0.006946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab105418d645c3cf9c1e769fa5c3283') in 0.011979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.789175 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5984604de4d1dfdbf00d52f61333868f') in 0.006053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 30.792531 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83daf334c0ddd5005fd9744a8306292a') in 0.006431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df225fa13c6ab1cd74aeccd72ff02a45') in 0.048664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 4.874727 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a77c76aba102105b70268e31d50f1c') in 0.006228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Grass.prefab
+  artifactKey: Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Grass.prefab using Guid(2fd946ece2c2d3445ac9d18710c01f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d044a8667681384e9c41669d14ef340') in 0.010384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 9.861919 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092d302d3714f5786ca00819786c63cf') in 0.011371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279d46e883081c255daa4e65d17ee7c3') in 0.030622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 2.916898 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a7d2eb83c76860d2d4743a9fc421a6') in 0.012346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab
+  artifactKey: Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X -Z.prefab using Guid(cf382273384c5a744a2f45331d5bccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d5ad8a348b9054ae8925beb56f82aa') in 0.035960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 14.766112 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd97b7c351ede149fb6e69b98a6d4bf') in 0.015581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2e36137834564b5cd996409fed252c') in 0.017010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 13.362620 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84bb33e13e788e24149320358efa330') in 0.012170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691261ed05b62f11e28a5077121cd903') in 0.064168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 16.055673 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c427a9a050788b94f3794a5b74b2d36') in 0.006399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab
+  artifactKey: Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro -X +Z.prefab using Guid(33657644194e7954d96ca53d52a822c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493aded11d2501bc235e90c15ff6ac63') in 0.009690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 3.038574 seconds.
+  path: Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab
+  artifactKey: Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pruebas random generation/Prefab/Giro +X -Z.prefab using Guid(8d7989c8c5b034741a5064fc26a65bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6498e75893302f5ce9133c05763539f9') in 0.033673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.427 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (427ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (79.1 KB). Loaded Objects now: 4025.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 2.439100 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.996600 ms  DeleteObjects: 0.098100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.442 seconds
+Domain Reload Profiling: 881ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (95.5 KB). Loaded Objects now: 4028.
+Memory consumption went from 133.0 MB to 133.0 MB.
+Total: 2.468800 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.064000 ms  DeleteObjects: 0.094100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.442 seconds
+Domain Reload Profiling: 863ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (71.2 KB). Loaded Objects now: 4031.
+Memory consumption went from 133.0 MB to 133.0 MB.
+Total: 4.096300 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.264300 ms MarkObjects: 3.203100 ms  DeleteObjects: 0.138100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Programacion\Portfolio\Portfolio\Portfolio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.430 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 865ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (79.3 KB). Loaded Objects now: 4034.
+Memory consumption went from 133.0 MB to 133.0 MB.
+Total: 3.844500 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.094700 ms MarkObjects: 3.097500 ms  DeleteObjects: 0.166400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
